@@ -1,3 +1,50 @@
 body {
-  color: tomato;
+  background-color: teal;
+}
+
+.section {
+  background-color: tomato;
+  border-radius: 20%;
+  margin: 100px;
+}
+
+.section__box {
+  display: flex;
+  align-items: center;
+}
+
+.section__title {
+  font-size: 30px;
+}
+
+.section__link {
+  text-decoration: none;
+
+  transition: color 250ms linear, transform 250ms linear;
+}
+.section__link:hover,
+.section__link:focus {
+  transform: scale(1.5);
+  color: yellowgreen;
+}
+
+.section__text {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: darkslategrey;
+
+  transition: transform 250ms linear;
+}
+
+.section__text:hover,
+.section__text:focus {
+  transform: rotate(5deg);
+}
+
+.section__form {
+  display: flex;
+  justify-content: center;
+
+  border-radius: 20%;
+
+  background-color: brown;
 }
