@@ -24,4 +24,3 @@ function getAllPropValues(propName) {
 
 console.log(getAllPropValues('quantity')); //[4, 3, 7, 9]
 console.log(getAllPropValues('price')); // [1300, 2700, 400, 1200]
-console.log('PROPERTY VALUES COLLECTION'.toLowerCase());
