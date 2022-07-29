@@ -6,4 +6,5 @@
 >> * [module_3](https://github.com/dankozz1t/tasks-js/tree/main/js/module_3) - Object, Destructuring and spread/rest
 >> * [module_4](https://github.com/dankozz1t/tasks-js/tree/main/js/module_4) - Callbacks, Arrow Functions and Iterating Array Methods
 >> * [module_5](https://github.com/dankozz1t/tasks-js/tree/main/js/module_5) - The keyword this and Prototypes and Classes
-
+>>> * [tasks-js/js/other/](https://github.com/dankozz1t/tasks-js/tree/main/js/other) - Other tasks
+>>>> * [codewars](https://github.com/dankozz1t/tasks-js/tree/main/js/other/codewars) - Codewars tasks (8kyu - 5kyu)
