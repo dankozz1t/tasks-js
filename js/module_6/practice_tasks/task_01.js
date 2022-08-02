@@ -1,1 +1,13 @@
-console.log('js/module_6/practice_tasks/task_01.js');
+const formEl = document.querySelector('.form');
+
+formEl.addEventListener('submit', handlerSubmit);
+
+function handlerSubmit(event) {
+  event.preventDefault();
+
+  const obj = new FormData(formEl);
+  console.log(obj);
+  obj.forEach(elem => console.log(elem));
+
+  event.target.reset();
+}
